@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Yurgosky</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage fixed header and footer." />
+	<meta name="keywords"  content="fullpage,jquery,demo,screen,fixed, header,footer, absolute, positioned,css" />
+	<meta name="Resource-type" content="Document" />
+
+
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+     <script src="form.js"></script>
+    
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link rel="stylesheet" href="form.css">
+       
+
+</head>
+<body>
+ <div class="blacknav" id="blackheader">
+  <div class="blacknav-header">
+    <div class="blacknav-title">
+      <a class="blacknavbar-brand" href="index.html"><img src="images/yurgoskywhite.png" alt="Yurgosky" width="250px"></a>
+    </div>
+  </div>
+  <div class="blacknav-btn">
+    <label for="blacknav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+  <input type="checkbox" id="blacknav-check">
+  <div class="blacknav-links center">
+    <a class="blacknav-item blacknav-link" href="our-approach.html">OUR APPROACH</a>
+    <a class="blacknav-item blacknav-link" href="work.html">WORK</a>
+    <a class="blacknav-item blacknav-link" href="loom.html">LOOM</a>
+    <a class="blacknav-item blacknav-link" href="about.html">ABOUT</a>
+    <a class="blacknav-item blacknav-link current" href="contact.html">CONTACT</a>
+  </div>
+</div>
+    
+      <div>
+          <br>
+        <img src="images/contact.svg" width="100%">  
+          <div class="container-fluid bg-black home-text">
+        <div class="col-sm-12">
+            <div>
+                <br><br><br><br> <br><br><br><br>
+                  <div class="row">
+                
+                <div class="col-sm-6 formwidth">
+                    <br><br><br><br><br><br><br>
+                    <div class="form-container z-depth-5">
+                        <form class="col s12" id="reused_form">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="name" type="text" name="name" required class="validate">
+                                    <label for="name">Name</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="email" type="email" name="email" required class="validate">
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <textarea id="message" name="message" class="materialize-textarea" class="validate" ></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="waves-effect waves-light btn submitbtn" type="submit">Submit</button>
+                            </div>
+                        </form>
+                            <div id="error_message" style="width:100%; height:100%; display:none; ">
+                                <h4>
+                                    Error
+                                </h4>
+                                    Sorry there was an error sending your form. 
+                            </div>
+                            <div id="success_message" style="width:100%; height:100%; display:none; ">
+                                <h4>
+                                    Success! Your Message was Sent Successfully.
+                                </h4> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    </div>
+    <div>
+          <br>
+        <img src="images/map.svg" width="100%">  
+    </div>
+    <div>
+          <br>
+        <img src="images/joinus.svg" width="100%">  
+    </div>
+    
+   
+ 
+        
+
+
+   <!--JavaScript -->
+    <script type="text/javascript" src="myscript.js"></script>
+  </body>
+</html>
